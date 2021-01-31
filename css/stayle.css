@@ -1,0 +1,179 @@
+
+/* Указываем шрифты из google*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+/* добавила свои шрифт*/
+@font-face {
+    font-family: 'Kramola';
+    src: url(../fonts/Kramola.woff2) format('woff2'),
+        url(../fonts/Kramola.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kramola';
+    src: url(../fonts/Kramola.woff2) format('woff2'),
+        url(../fonts/Kramola.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kramola';
+    src: url(../fonts/Kramola.woff2) format('woff2'),
+        url(../fonts/Kramola.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+/* Стили обнуления */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+/* выделяем все заголовки первого уровня меню */
+h1 {
+	color: #633E5A;
+	font-size: 110px;
+	font-style: oblique;
+	font-weight: 600; /* указала специально*/
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px rgb(202, 146, 146);
+	text-shadow: 3px 3px 3px #000; /* эта команда будет перебивать прошлую команду*/
+}
+
+/* работа с меню сайта */
+
+nav {
+	color: #20152C;
+	font-style: italic;
+	font-size: 10px;
+	text-align: normal;
+	text-transform: uppercase;
+	text-decoration: none; /* отменилы подчеркивание ссылок */
+	text-transform: capitalize;
+	white-space:nowrap;
+}
+
+/* работа с span из меню сайта */
+nav>span {
+	color: darkorange;
+	font-size: 15px;
+	text-shadow: 2px 3px 3px #000;
+}
+
+/* выделяем авторов */
+
+h2 {
+	color: #20152C;
+	font-size: 15px;
+	text-align:right;
+	text-decoration: overline;
+}
+
+/* уточняем некоторых авторов */
+
+.title {
+	color: #f59221;
+	text-align:left;
+	font-family: 'Lobster', cursive;
+	text-decoration: underline;
+}
+
+/* работаем с цитатами */
+p {
+	color: #613591;
+	font-style: normal;
+	font-size: 10px;
+	text-align: right;
+	text-transform: lowercase;
+
+	}
+
+	/* уточняем конкретные цитаты*/
+.quote {
+	color: #c75c05;
+	font-style: normal;
+	font-size: 20px;
+	text-align: left;
+	word-spacing: 100cm;
+	text-shadow: 2px 15px 9px rgb(145, 136, 136), 6px 30px 2px #000;
+}
+.quote1 {
+	color: #af1804;
+	font-family: 'Kramola';
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+	font-size: 20px;
+	text-align: left;
+	}
+.center {
+	text-align: center;
+	color: #CB95AA;
+	font-family: 'Potta One', cursive;
+	font-size: 15px;
+	text-transform: capitalize;
+	}
+.item {
+	text-align:justify;
+	color: #CB95AA;
+	font-family: 'Hachi Maru Pop', cursive;
+	font-size: 90px;
+	text-shadow: 2px 5px 9px rgb(68, 7, 7);
+}
+
+.text1 p {
+	color: chartreuse;
+	text-decoration: line-through;
+	font-weight: 900;
+}
+
+
+
+
+/* меняем все р в footer */
+footer p {
+	color: #000;
+	font-family: 'Pacifico', cursive;
+	font-size: 60px;
+}
+
+
